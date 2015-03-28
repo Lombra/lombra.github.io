@@ -4,6 +4,12 @@
 	<meta charset="utf-8">
 	<title>Lombra Development Center</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+		function load() {
+			$("#loader").load("ariana.html")
+		}
+	</script>
 </head>
 <body>
 <h1>Hello Numba-World!</h1>
@@ -11,5 +17,8 @@
 <p>Why mean?</p>
 
 <p><a href="http://validator.w3.org/check/referer">HTML5 validator</a></p>
+
+<button onclick="load()">chek this</button>
+<div id="loader"></div>
 </body>
 </html>
